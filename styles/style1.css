@@ -1,0 +1,159 @@
+
+
+body{ 
+    font-family: 'Times New Roman', Times, serif;
+    background: burlywood;
+
+
+
+}
+
+nav{
+    border: 0.5mm solid black;
+    padding: 0.5em;
+    background: rgb(231, 99, 69);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    margin-right: 4em;
+    margin-left: 4em;
+color: black;
+    font-size: larger;
+
+
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(229, 239, 45);
+}
+a{
+    text-decoration-line: none;
+    transition: all 250ms;}
+
+
+
+
+/* html 1 */
+.page1 h1, .page1 h3{ border: 0,25em ;
+    padding: 1em;}
+.page1 h1{
+    font-size: 500%;
+    font-family: monospace;
+}
+    .page1 p {
+        font-size: 100%;
+        font-weight: 70;
+    }
+
+
+.page1 div{
+    border: 0.5em solid burlywood;
+    padding:1.5em;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+        
+
+
+    .page1 h2{
+    display: flex;
+    justify-content: center;
+}
+
+.page1 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.page1 h3{
+    font-size: 200%;
+}
+
+
+.page1 p{
+    padding: 1em;
+    font-size: larger;
+}
+
+
+/* html 2 */
+
+
+
+
+.page2 img{
+
+   
+
+    width: 100vw;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.page2 h2, .page2 p, .page2 a{
+    padding-left: 2em;
+}
+
+.page2 h1{
+    font-size: 1000%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page2 div {
+    display: flex;
+    justify-content: left;
+
+}
+
+
+.page2 h2{  
+    font-size: 200%;
+}
+
+.page2 a:hover{
+    
+    text-decoration-line: underline;
+}
+.page2 h3{
+    padding-left: 3em;
+
+}
+
+
+/* html 3 */
+
+.page3 h1{ 
+    font-size: small;
+    
+}
+.page3 h3{
+    border: 0.25em solid black;
+    display: flex;
+    
+    
+}
+.page3 img{
+    width: 15em;
+    display: flex;
+    justify-content: left;
+}
+.page3 a{
+    text-decoration-line: none;
+    transition: all 250ms;
+   
+}
+.page3 a:hover{
+    text-decoration-line: underline;
+}
+
