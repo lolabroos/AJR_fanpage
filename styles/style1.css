@@ -34,15 +34,20 @@ a{
     text-decoration-line: none;
     transition: all 250ms;}
 
+h1{
+    font-family: monospace;
+}
 
-
+footer{
+    border:2em solid burlywood;
+}
 
 /* html 1 */
 .page1 h1, .page1 h3{ border: 0,25em ;
     padding: 1em;}
 .page1 h1{
     font-size: 500%;
-    font-family: monospace;
+    
 }
     .page1 p {
         font-size: 100%;
@@ -57,8 +62,12 @@ a{
     justify-content: left;
 
 }
-
-
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
         
 
 
@@ -81,6 +90,7 @@ a{
     padding: 1em;
     font-size: larger;
 }
+
 
 
 /* html 2 */
@@ -157,3 +167,31 @@ a{
     text-decoration-line: underline;
 }
 
+.page3 h1{
+font-size: 500%;
+display: flex;
+justify-content: center;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.groep1, .groep2, .groep3, .groep4, .groep5, .groep6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1mm solid black;
+    background-color: white;
+    
+}
+
+/* html 3 */
+
+.page4 h1{
+    font-size: 550%;
+    display: flex;
+    justify-content: center;
+}
