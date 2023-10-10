@@ -38,6 +38,7 @@ h1{
     font-family: monospace;
 }
 
+
 footer{
     border:2em solid burlywood;
 }
@@ -68,12 +69,15 @@ footer{
     margin-right: auto;
     width: 50vw;
 }
-        
+       .page1 div img{
+        width: 10em;
+       } 
 
 
     .page1 h2{
     display: flex;
     justify-content: center;
+    
 }
 
 .page1 h1{
@@ -136,7 +140,9 @@ footer{
     text-decoration-line: underline;
 }
 .page2 h3{
-    padding-left: 3em;
+    padding: 2em;
+    font-size: 200%;
+    
 
 }
 
@@ -179,7 +185,7 @@ justify-content: center;
     flex-wrap: wrap;
     gap: 1em;
 }
-.groep1, .groep2, .groep3, .groep4, .groep5, .groep6{
+.groep1, .groep2, .groep3, .groep4, .groep5, .groep6, .groep7, .groep8, .groep9, .groep10{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,10 +194,23 @@ justify-content: center;
     
 }
 
-/* html 3 */
+/* html 4 */
 
 .page4 h1{
     font-size: 550%;
     display: flex;
     justify-content: center;
+}
+.page4 img{
+    width: 60em;
+    height: 45em;
+    
+}
+.page4 p{
+    width: 50em;
+    font-size: larger;
+}
+.page4 h2{
+    font-size: 250%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
