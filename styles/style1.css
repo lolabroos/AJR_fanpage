@@ -2,16 +2,13 @@
 
 body{ 
     font-family: 'Times New Roman', Times, serif;
-    background: burlywood;
-
-
-
+    background-color: antiquewhite;
 }
 
-nav{
+.menu{
     border: 0.5mm solid black;
     padding: 0.5em;
-    background: rgb(231, 99, 69);
+    background-color: darksalmon ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,18 +18,20 @@ nav a {
     display: block;
     margin-right: 4em;
     margin-left: 4em;
-color: black;
+    color: black;
     font-size: larger;
 
-
 }
+
 a:hover{
     text-decoration: underline;
     color: rgb(229, 239, 45);
 }
+
 a{
     text-decoration-line: none;
-    transition: all 250ms;}
+    transition: all 250ms;
+}
 
 h1{
     font-family: monospace;
@@ -40,44 +39,46 @@ h1{
 
 
 footer{
-    border:2em solid burlywood;
+    border:2em solid antiquewhite
 }
 
 /* html 1 */
-.page1 h1, .page1 h3{ border: 0,25em ;
-    padding: 1em;}
+.page1 h1, .page1 h3{ 
+    border: 0.25em;
+    padding: 1em;
+}
+
 .page1 h1{
     font-size: 500%;
-    
 }
-    .page1 p {
-        font-size: 100%;
-        font-weight: 70;
-    }
+.page1 p {
+     font-size: 150%;
+     font-weight: 70;
+}
 
 
-.page1 div{
-    border: 0.5em solid burlywood;
+.page1 article{
+    border: 0.5em solid antiquewhite;
     padding:1.5em;
     display: flex;
     justify-content: left;
 
 }
+
 .img1{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
 }
-       .page1 div img{
-        width: 10em;
-       } 
 
+.page1 div img{
+     width: 10em;
+} 
 
-    .page1 h2{
+.page1 h2{
     display: flex;
     justify-content: center;
-    
 }
 
 .page1 h1{
@@ -99,15 +100,8 @@ footer{
 
 /* html 2 */
 
-
-
-
 .page2 img{
-
-   
-
-    width: 100vw;
-    height: 50vw;
+    
     margin-left: auto;
     margin-right: auto;
     
@@ -119,31 +113,23 @@ footer{
 
 .page2 h1{
     font-size: 1000%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
 }
 
-.page2 div {
-    display: flex;
-    justify-content: left;
-
-}
 
 
 .page2 h2{  
     font-size: 200%;
+   
 }
 
 .page2 a:hover{
-    
     text-decoration-line: underline;
 }
+
 .page2 h3{
     padding: 2em;
     font-size: 200%;
-    
-
 }
 
 
@@ -153,22 +139,23 @@ footer{
     font-size: small;
     
 }
+
 .page3 h3{
     border: 0.25em solid black;
-    display: flex;
-    
-    
+    display: flex;   
 }
+
 .page3 img{
     width: 15em;
     display: flex;
     justify-content: left;
 }
+
 .page3 a{
     text-decoration-line: none;
     transition: all 250ms;
-   
 }
+
 .page3 a:hover{
     text-decoration-line: underline;
 }
@@ -185,13 +172,13 @@ justify-content: center;
     flex-wrap: wrap;
     gap: 1em;
 }
+
 .groep1, .groep2, .groep3, .groep4, .groep5, .groep6, .groep7, .groep8, .groep9, .groep10{
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: 1mm solid black;
-    background-color: white;
-    
+    background-color: white; 
 }
 
 /* html 4 */
@@ -201,15 +188,17 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+
 .page4 img{
     width: 60em;
-    height: 45em;
-    
+    height: 45em;  
 }
+
 .page4 p{
     width: 50em;
     font-size: larger;
 }
+
 .page4 h2{
     font-size: 250%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
