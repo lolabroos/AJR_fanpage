@@ -6,7 +6,7 @@ body{
 }
 
 .menu{
-    border: 0.5mm solid black;
+    border: 0.1em solid black;
     padding: 0.5em;
     background-color: darksalmon ;
     display: flex;
@@ -42,7 +42,8 @@ footer{
     border:2em solid antiquewhite
 }
 
-/* html 1 */
+/*page 1 */ 
+
 .page1 h1, .page1 h3{ 
     border: 0.25em;
     padding: 1em;
@@ -71,7 +72,9 @@ footer{
     margin-right: auto;
     width: 50vw;
 }
-
+.imgjack{
+    width: 21em;
+}
 .page1 div img{
      width: 10em;
 } 
@@ -102,8 +105,7 @@ footer{
 
 .page2 img{
     
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10em;
     
 }
 
@@ -114,7 +116,12 @@ footer{
 .page2 h1{
     font-size: 1000%;
 }
-
+.page2 ul{
+    font-size: large;
+}
+ul a:hover{
+    color: blue;
+}
 
 .page2 h2{  
     font-size: 200%;
@@ -156,6 +163,9 @@ footer{
 .page3 a:hover{
     text-decoration-line: underline;
 }
+.page3 article a:hover{
+    color: blue;
+}
 
 .page3 h1{
 font-size: 500%;
@@ -174,7 +184,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1mm solid black;
+    border: 0.25em solid black;
     background-color: white; 
 }
 
